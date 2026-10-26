@@ -196,24 +196,158 @@ O processo de contratação previsto é:
 
 **6. Cliente recebe acesso à plataforma**
 
-## Equipe
 
-* João Mateus — Coordenador de Mercado
+Projeto 3 — Painel de Métricas do Produto
 
-* João Paulo — Coordenador de Marketing
+O objetivo desta etapa é acompanhar o desempenho da Clean-Financy por meio de métricas de produto e de código, identificar dificuldades na experiência dos usuários e tomar decisões coletivas com base nos resultados analisados.
 
-* Luis Guilherme — Garantia de Qualidade
+A Clean-Financy é um sistema de gestão financeira voltado para pequenos comércios, comerciantes autônomos e microempresas. Por isso, as métricas serão utilizadas para avaliar se os visitantes compreendem a proposta do sistema, conseguem iniciar sua utilização e demonstram interesse em continuar usando a plataforma.
 
-* João Emanoel — Designer
+Métricas acompanhadas
 
-* Keirryson Raffael — Desenvolvedor Full Stack
+Categoria
 
-## Plataforma
+Indicadores
 
-Plataforma utilizada: Lovable
+Produto
+
+Taxa de ativação, retenção e NPS
+
+Código
+
+Commits realizados e bugs em aberto
+
+Cada indicador apresenta seu valor atual, o período analisado, a interpretação do resultado e uma ação definida pela equipe para responder a uma possível piora.
+
+Os indicadores de produto ajudam a compreender a experiência dos comerciantes durante o primeiro acesso e o uso contínuo da plataforma. Já os indicadores de código permitem acompanhar a evolução do desenvolvimento e identificar problemas que possam comprometer o funcionamento do sistema.
+
+Cálculos e análise
+
+O painel apresenta os cálculos e as interpretações dos seguintes indicadores:
+
+Taxa de ativação: percentual de visitantes que realizam uma ação importante na Clean-Financy, como concluir o cadastro e registrar a primeira movimentação financeira.
+
+Retenção: percentual dos usuários de uma mesma coorte que voltam a utilizar o sistema após o primeiro acesso.
+
+Churn: percentual dos usuários da mesma coorte que deixam de retornar durante o período de acompanhamento.
+
+NPS (Net Promoter Score): indicador de satisfação e disposição dos usuários para recomendar a Clean-Financy a outros comerciantes.
+
+Commits: registros de alterações realizadas no código do projeto, utilizados para acompanhar a atividade de desenvolvimento.
+
+Bugs em aberto: erros identificados que ainda precisam ser corrigidos, especialmente aqueles que podem prejudicar o cadastro, o registro de movimentações e a visualização do saldo.
+
+Funil AARRR: análise das etapas de aquisição, ativação, retenção, receita e recomendação para identificar em qual etapa os usuários apresentam maior dificuldade.
+
+Os valores, as fórmulas, as interpretações e as ações correspondentes estão documentados em metricas/painel.md.
+
+Observação: os valores utilizados como exemplo no painel são hipotéticos e servem para demonstrar os cálculos e orientar a tomada de decisão. Eles deverão ser substituídos por dados reais obtidos durante a validação da Clean-Financy com usuários externos e pelo acompanhamento do repositório.
+
+Decisão coletiva
+
+Após analisar o cenário hipotético de 20 visitantes, a equipe definiu como ação prioritária simplificar o cadastro e melhorar as orientações do primeiro acesso à Clean-Financy.
+
+A decisão foi motivada pela taxa estimada de ativação de 30%: dos 20 visitantes considerados no painel, apenas 6 chegaram à primeira movimentação financeira, enquanto 14 não foram ativados. Isso representa uma queda de 70% entre a aquisição e a ativação.
+
+A equipe priorizará a revisão dos campos de cadastro e a melhoria das orientações apresentadas no primeiro acesso. O objetivo é facilitar a entrada de novos usuários, reduzir as dúvidas iniciais e ajudar os comerciantes a registrar suas primeiras movimentações financeiras.
+
+Essa melhoria está alinhada à proposta de valor da Clean-Financy, que busca oferecer um sistema simples, prático e fácil de aprender, especialmente para comerciantes que não possuem conhecimento técnico ou muito tempo para administrar as finanças do negócio.
+
+A decisão não impede a correção de bugs críticos. Caso seja identificado algum erro que impeça o cadastro, o acesso ou o registro financeiro, sua correção deverá receber prioridade.
+
+O registro formal da decisão, incluindo a justificativa, o responsável e a data de revisão, está disponível em metricas/decisao.md.
+
+Arquivos do projeto
+
+Painel de métricas — painel.md: indicadores de produto e código, cálculos de ativação, retenção, churn e NPS, funil AARRR, análise dos resultados e ações de melhoria.
+
+Decisão coletiva — decisao.md: registro da decisão da equipe, justificativa numérica, responsável e data de revisão.
+
+Issue da ação prioritária: acompanhamento das tarefas para simplificar o cadastro e melhorar as orientações do primeiro acesso. O link da issue deverá ser adicionado após sua criação no GitHub.
+
+Tecnologias utilizadas
+
+Plataforma de desenvolvimento: Lovable.
+
+Sistema: Clean-Financy, voltado à gestão financeira de pequenos comércios.
+
+Versionamento e colaboração: Git e GitHub, caso estejam sendo utilizados no repositório do projeto.
+
+Documentação: arquivos Markdown (.md) para registrar as métricas, os cálculos e as decisões coletivas.
+
+Equipe
+
+Integrante
+
+Responsabilidade no projeto Clean-Financy
+
+João Mateus
+
+Coordenador de Mercado
+
+João Paulo
+
+Coordenador de Marketing
+
+Luis Guilherme
+
+Garantia de Qualidade
+
+João Emanoel
+
+Designer
+
+Keirryson Raffael
+
+Desenvolvedor Full Stack
+
+Organização da equipe
+
+As responsabilidades foram distribuídas para permitir a execução das atividades em paralelo, mantendo a participação coletiva nas decisões e na definição das prioridades do produto.
+
+Função
+
+Responsabilidade
+
+Métricas de produto
+
+Analisar ativação, retenção, churn e NPS, considerando a experiência dos comerciantes.
+
+Métricas de código
+
+Verificar commits, pull requests (PRs), bugs em aberto e a evolução do desenvolvimento.
+
+Painel
+
+Organizar os indicadores, os valores, os cálculos e a interpretação dos resultados.
+
+Documentação
+
+Registrar o funil AARRR, as decisões coletivas e as ações de melhoria.
+
+Validação
+
+Acompanhar os testes com pessoas externas à equipe e registrar os feedbacks recebidos.
+
+A divisão de responsabilidades orienta a execução das tarefas, enquanto as decisões sobre as prioridades da Clean-Financy são discutidas e tomadas coletivamente.
+
+Atividade: Projeto 3 — Painel de Métricas do Produto.
+
+Status do projeto
+
+Em desenvolvimento.
+
+A equipe utiliza os indicadores de produto, os resultados da validação com usuários externos e o acompanhamento do código para orientar as melhorias da Clean-Financy.
+
+A prioridade inicial é simplificar o cadastro e melhorar as orientações do primeiro acesso. Em seguida, os resultados serão reavaliados para verificar se as mudanças contribuíram para aumentar a ativação dos usuários e facilitar o uso do sistema.
+
+O acompanhamento contínuo das métricas permitirá identificar dificuldades, priorizar correções e evoluir a plataforma de acordo com as necessidades dos pequenos comerciantes.
 
 ## Conclusão
 
 Clean‑Financy foi criado com o objetivo de evoluir de uma sprint de pesquisa sobre finanças de pequenos negócios para uma solução com características de produto comercial.
 
 O projeto aplica os conceitos de MVP, MLP e MMP, mostrando a evolução do sistema funcional até uma versão pensada para ser apresentada ao mercado — Clean‑Financy não é uma loja de produtos físicos, mas um serviço de gestão financeira acessível para quem mais precisa dele: o pequeno comerciante.
+Clean-Financy
+
+Clean-Financy — Gestão financeira simples para quem faz o comércio acontecer.
